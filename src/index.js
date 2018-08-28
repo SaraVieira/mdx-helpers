@@ -5,4 +5,6 @@ import Layout from './layout'
 import Split from './Split'
 import Theme from './Theme'
 
-export { BGImage, CodeSanbox, LayoutNoFooter, Layout, Split, Theme }
+export { BGImage, CodeSanbox, LayoutNoFooter, Layout, Split }
+
+export default Theme
