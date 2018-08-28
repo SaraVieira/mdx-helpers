@@ -1,5 +1,5 @@
-import React, { Fragment } from "react"
-import styled from "styled-components"
+import React, { Fragment } from 'react'
+import styled from 'styled-components'
 
 const Wrapper = styled.main`
   width: 100vw;

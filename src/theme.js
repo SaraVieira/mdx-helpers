@@ -1,12 +1,12 @@
 // example theme.js
-import theme from "mdx-deck/themes"
-import atomDark from "react-syntax-highlighter/styles/prism/atom-dark"
+import theme from 'mdx-deck/themes'
+import atomDark from 'react-syntax-highlighter/styles/prism/atom-dark'
 
 export default {
   ...theme,
-  font: "Futura, sans-serif",
+  font: 'Futura, sans-serif',
   h1: {
-    textTransform: "uppercase",
+    textTransform: 'uppercase',
     fontWeight: 600
   },
   monospace: '"Dank Mono", monospace',
@@ -14,25 +14,25 @@ export default {
     style: atomDark
   },
   img: {
-    maxWidth: "100%"
+    maxWidth: '100%'
   },
   weights: 400,
   li: {
-    paddingBottom: "20px",
+    paddingBottom: '20px',
     fontFamily: '"Dank Mono", monospace'
   },
   ul: {
-    listStyle: "none",
-    paddingLeft: "20px",
-    display: "inline-block"
+    listStyle: 'none',
+    paddingLeft: '20px',
+    display: 'inline-block'
   },
   colors: {
-    text: "#6AD798",
-    background: "#161923",
-    link: "#fff",
-    pre: "#fff",
-    preBackground: "#051626",
-    code: "#fff",
-    codeBackground: "#051626"
+    text: '#6AD798',
+    background: '#161923',
+    link: '#fff',
+    pre: '#fff',
+    preBackground: '#051626',
+    code: '#fff',
+    codeBackground: '#051626'
   }
 }
