@@ -1,0 +1,24 @@
+{
+  "name": "mdx-helpers",
+  "version": "1.0.0",
+  "description": "A list of stuff I use for presentations",
+  "main": "src/index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "posttest": "npm run format",
+    "format": "prettier --write '**/*.{js,css,md}'",
+    "lint": "eslint . --cache --fix"
+  },
+  "author": "Sara Vieira",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "prettier": "^1.14.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
